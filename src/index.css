@@ -31,7 +31,7 @@
   height: 100%;
   background-color: #e0e0e0;
   flex: 1 1 150px;
-  border: 1px solid #CFCFCF;
+  border: 1px solid #cfcfcf;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,5 +51,5 @@
 }
 
 .orange {
-  background-color: #F5913E;
+  background-color: #f5913e;
 }
