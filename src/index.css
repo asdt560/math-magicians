@@ -11,6 +11,13 @@
   justify-content: space-around;
 }
 
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
 .calculator {
   width: 50%;
   max-width: 500px;
