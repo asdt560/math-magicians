@@ -24,7 +24,6 @@ class Calculator extends React.Component {
     }
     const result = calculate(this.state, e.target.innerHTML);
     this.setState(result);
-    console.log(this.state);
   }
 
   render() {
@@ -32,6 +31,8 @@ class Calculator extends React.Component {
     let result = '0';
     if (states.total !== null) {
       result = states.total;
+    } else if (states.total === null && states.next === null) {
+      result = '0';
     } else {
       result = states.next;
     }
