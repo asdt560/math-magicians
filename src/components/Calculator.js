@@ -20,12 +20,12 @@ const Calculator = () => {
     setState(result);
   };
   let result = '0';
-  if (state.total !== null) {
-    result = state.total;
+  if (state.next !== null) {
+    result = state.next;
   } else if (state.total === null && state.next === null) {
     result = '0';
   } else {
-    result = state.next;
+    result = state.total;
   }
   return (
     <section className="calculator">
