@@ -20,7 +20,9 @@ const Calculator = () => {
     setState(result);
   };
   let result = '0';
-  if (state.next !== null) {
+  if (state.total === "Can't divide by 0." || state.total === "Can't find modulo as can't divide by 0.") {
+    result = state.total;
+  } else if (state.next !== null) {
     result = state.next;
   } else if (state.total === null && state.next === null) {
     result = '0';
