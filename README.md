@@ -8,8 +8,7 @@
 
 ## Live Demo
 
-Not yet available.
-
+[Github Pages](https://asdt560.github.io/math-magicians)
 ## Getting started
 
 Clone the repository, then run npm install to get the necessary packages.
