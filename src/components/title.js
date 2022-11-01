@@ -5,7 +5,7 @@ const Title = () => {
     document.title = 'Calculator';
   });
   return (
-    <section hidden><div>Lets do some Math</div></section>
+    <section><h2>Lets do some Math!</h2></section>
   );
 };
 
