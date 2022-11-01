@@ -1,12 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-const Title = () => {
-  useEffect(() => {
-    document.title = 'Calculator';
-  });
+function Title() {
   return (
     <section><h2>Lets do some Math!</h2></section>
   );
-};
+}
 
 export default Title;
