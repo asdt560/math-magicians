@@ -7,6 +7,7 @@ const Calculator = () => {
     next: '0',
     operation: null,
   });
+
   const onClickHandler = (e) => {
     if (e.target.innerHTML.match(/[0-9]+/)) {
       setState((prevState) => ({
@@ -19,6 +20,7 @@ const Calculator = () => {
     const result = calculate(state, e.target.innerHTML);
     setState(result);
   };
+
   let result = '0';
   if (state.total === "Can't divide by 0." || state.total === "Can't find modulo as can't divide by 0.") {
     result = state.total;

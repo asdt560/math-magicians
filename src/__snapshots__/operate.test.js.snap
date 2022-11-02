@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components test Navbar component 1`] = `
+"<header>
+    <h1>Math Magicians</h1>
+    <ul>
+      <li className=\\"navitem\\"><Link to=\\"/\\">Home</Link></li>
+      <li className=\\"navitem\\"><Link to=\\"/calculator\\">Calculator</Link></li>
+      <li className=\\"navitem\\"><Link to=\\"/quote\\">Quote</Link></li>
+    </ul>
+  </header>"
+`;
