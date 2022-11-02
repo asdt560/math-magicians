@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components test Navbar component 1`] = `
+exports[`Navbar component 1`] = `
 "<header>
     <h1>Math Magicians</h1>
     <ul>
