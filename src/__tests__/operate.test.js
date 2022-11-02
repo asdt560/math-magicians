@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom';
-import operate from './logic/operate';
+import operate from '../logic/operate';
 
 describe('test operate component', () => {
   it('test addition', () => {

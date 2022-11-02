@@ -2,7 +2,7 @@ import '@testing-library/jest-dom';
 import React from 'react';
 import { render } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from '../components/Navbar';
 
 it('Navbar component', async () => {
   render(

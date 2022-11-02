@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom';
-import calculate from './logic/calculate';
+import calculate from '../logic/calculate';
 
 describe('test calculate component', () => {
   it('test addition', () => {

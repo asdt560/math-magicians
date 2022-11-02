@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Quote from './components/Quote';
+import Quote from '../components/Quote';
 
 test('test quote.js', () => {
   render(<Quote />);
